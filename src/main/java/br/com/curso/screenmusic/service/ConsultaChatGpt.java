@@ -6,7 +6,6 @@ import com.theokanning.openai.service.OpenAiService;
 public class ConsultaChatGpt {
 
     public static String obterInformacao(String texto) {
-//        OpenAiService service = new OpenAiService(System.getenv("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"));
         OpenAiService service = new OpenAiService(System.getenv("OPENAI_APIKEY"));
 
 
